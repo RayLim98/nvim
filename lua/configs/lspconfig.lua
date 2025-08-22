@@ -1,6 +1,6 @@
 require("nvchad.configs.lspconfig").defaults()
 
--- Test comment 
+-- HOWDY NEIGHBOR
 -- read :h vim.lsp.config for changing options of lsp servers 
 vim.api.nvim_create_autocmd('LspAttach', {
   group = vim.api.nvim_create_augroup('kickstart-lsp-attach', { clear = true }),
